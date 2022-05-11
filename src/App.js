@@ -1,6 +1,6 @@
 import React from "react";
 // import AddVisibility from "./components/AddVisibility/AddVisibility";
-// import Header from "./components/Header/Header";
+import Header from "./components/Header/Header";
 import "./App.scss";
 // import TimeManagement from "./components/TimeManagement/TimeManagement";
 // import TaskManager from "./components/TaskManager/TaskManager";
@@ -11,8 +11,8 @@ import "./App.scss";
 const App = () => {
   return (
     <div className="App">
-      {/* <Header />
-      <AddVisibility />
+      <Header />
+      {/*  <AddVisibility />
       <TimeManagement />
       <TaskManager />
       <Kanban />
